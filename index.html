@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programa bolsas Santander</title>
+</head>
+<body>
+    <h1>Desafio Online</h1>
+    <h2>Programa bolsas Santander Mobile 2020 - T03</h2>
+
+    <article>
+        <section>
+            <h3><strong>Personagens</strong></h3>
+            <p>Programar uma função filme que recebe três arrays com os nomes de personagens, filmes e ano de estréia no cinema.</p>
+            <p>A função deve receber também um valor de id escolhido pelo usuário com intervalo de 1 até o tamanho de um dos arrays fornecidos e retornar uma frase com o seguinte modelo:</p>
+            <p>"personagem é um personagem do filme filme que estreou no cinema em lançamento."</p>
+            <p>Se o valor de id for inválido, a função deve retornar a frase "Essa não é uma opção válida."</p>
+            <p><strong>Exemplo:</strong></p>
+
+            <p>
+                <code>
+                    var personagens = ["Hermione", "Trinity", "Leia"]
+                    var filmes = ["Harry Potter", "Matrix", "Star wars"]
+                    var lancamentos = [2001, 1999, 1977]
+                    var id = 3
+                    
+                    filme(personagens, filmes, lancamentos, id)  
+                    //retorna a string "Leia é um personagem do filme Star wars que estreou no cinema em 1977."
+                </code>
+            </p>
+        </section>
+
+        <section>
+            <h3>Séries</h3>            
+            <p>Programe uma função series que recebe dois parâmetros, um prefixo com o nome da série e um array com a lista de todos os episódios da série. A função deve retornar um novo array com a lista de episódios iniciando com o nome da série.</p>
+            <p><strong>Exemplos: </strong> Dadas as variáveis abaixo:</p>
+            <p>
+                <code>
+                    harryPotterPrefixo = "Harry Potter";
+                    harryPotterSeries = [
+                      "e a Pedra Filosofal",
+                      "e a Câmara Secreta",
+                      "e o Prisioneiro de Azkaban",
+                      "e o Cálice de Fogo",
+                      "e a Ordem da Fênix",
+                      "e o Enigma do Príncipe",
+                      "e as Relíquias da Morte"
+                    ];
+                </code>
+            </p>
+
+            <p>A função deve retornar como resultado o seguinte array:</p>
+
+            <p>
+                <code>
+                    resultado = [
+                      "Harry Potter e a Pedra Filosofal",
+                      "Harry Potter e a Câmara Secreta",
+                      "Harry Potter e o Prisioneiro de Azkaban",
+                      "Harry Potter e o Cálice de Fogo",
+                      "Harry Potter e a Ordem da Fênix",
+                      "Harry Potter e o Enigma do Príncipe",
+                      "Harry Potter e as Relíquias da Morte"
+                    ];
+                </code>
+            </p>
+        
+        </section>
+
+        <section>
+            <h3>Maior que o número</h3>
+            <p>Programe uma função maiorQueNum que busca em um dado array apenas os números maiores do que o número fornecido no segundo parâmetro da função e retorne um novo array apenas com esses números.</p>
+            <p><strong>Exemplo:</strong></p>
+            <p>
+                <code>
+                    numeros = [10, 4, 7, 128, 42, -1, 0, 300, -5]
+                    num = 5
+                    
+                    maiorQueNum(numeros, num); // retorna [10, 7, 128, 42, 300]
+                </code>
+            </p>
+        </section>
+
+        <section>
+            <h3>Buscar divisível por</h3>
+            <p>Buscar divisível por
+                Programe uma função buscarDivisivelPor que recebe dois parâmetros, um array de números e um número de teste, retornando como resposta o primeiro número do array que seja divisível pelo número dado e diferente de zero. Caso nenhum número do array passe no teste, retorne o texto "Nenhum número válido encontrado!".
+            </p>
+        </section>
+
+        <section>
+            <h3>Repetindo palavras</h3>
+            <p>Crie uma função que receba dois valores, o primeiro será uma palavra qualquer, e o segundo será a quantidade de vezes que o sistema irá imprimir essa palavra.</p>
+        </section>
+
+        <section>
+            <h3>Comissão</h3>
+            <p>Crie um sistema para calcular a comissão dos vendedores de uma loja. Crie uma função que tenha dois argumentos: preço e porcentagem de comissão.</p>
+        </section>
+
+    </article>
+
+    
+    
+</body>
+</html>
