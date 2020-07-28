@@ -5,9 +5,9 @@ function filme(personagens, filmes, lancamentos, id)
   var lancamentos = []
   var id = id - 1
 
-  
+  var filme = filme.concat([personagens, filmes, lancamentos])
  
-    return personagem +" é um personagem do filme " + filmes[id] + " que estreou no cinema em " + lancamentos[id]
+    return personagens +" é um personagem do filme " + filmes[id] + " que estreou no cinema em " + lancamentos[id]
   
     return "Essa não é uma opção válida."
     
